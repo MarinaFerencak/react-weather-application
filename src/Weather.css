@@ -1,24 +1,49 @@
-img {
-  width: 50px;
-}
-
 h1 {
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 20px;
   margin-bottom: 0;
+  font-weight: bold;
 }
 
 p {
   margin-bottom: 0;
 }
 
+li {
+  list-style: none;
+}
+
+.main-icon {
+  width: 80px;
+}
+
+.forecast-icons {
+  width: 40px;
+}
+
 .current-temperature {
   display: inline-block;
+  position: relative;
+  top: 12px;
   font-size: 50px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .measure-unit {
   display: inline-block;
+  position: relative;
+  bottom: 7px;
   font-size: 20px;
+}
+
+.forecast-days {
+  font-weight: bold;
+}
+
+.forecast-temperatures {
+  font-size: 14px;
+}
+
+.weather-description {
+  font-size: 15px;
 }
